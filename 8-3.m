@@ -1,5 +1,8 @@
 #import<Foundation/Foundation.h>
 
+
+
+
 @interface XYPoint: NSObject   //interface part
 {
     int x;
@@ -77,6 +80,10 @@ int main(int argc,const char *argv[])
 
    NSLog(@"Rec w = %i, h = %i", myRec->wid, myRec->hei);
    NSLog(@"Orign at(%i,%i)", myRec->orign->x, myRec->orign->y);
+
+   [myPt setX: 16 andY: 60 ];
+   NSLog(@"Orign at(%i,%i)", myRec->orign->x, myRec->orign->y);
+
    NSLog(@"Area is %i", [myRec area]);
 
   return(0);

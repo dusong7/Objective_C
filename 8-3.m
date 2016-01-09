@@ -49,7 +49,7 @@
 
  -(void) setOrign: (XYPoint *) pt
  {
-    // orign = pt;
+     orign = pt;
  //    if(! orign)
   //   {
   //       orign = [[XYPoint *alloc] init];

@@ -13,6 +13,11 @@ int main(int argc,const char *argv[])
     NSLog(@"%x %x", w1|w2&w3, w1|w2&~w3);
     NSLog(@"%x %x", ~(~w1 & ~w2), -(-w1 | -w2));
     
+    
+    // & and
+    // | or
+    // ^ xor
+    // ~ not
     return 0;
   }
     

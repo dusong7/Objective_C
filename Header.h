@@ -20,5 +20,9 @@
 
 -(void) show;
 -(void) add: (int)n over: (int)m;
--(void) multi:(int)m;
+-(void) multi:(TestCalss*) m;
+@end
+
+@interface TestClsBT : TestCalss
+-(void) showMore;
 @end
